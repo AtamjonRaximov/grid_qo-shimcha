@@ -1,0 +1,19 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  header {
+    height: 80vh;
+    border: solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 10px;
+    padding: 10px;
+  }
+  .child {
+    border: solid;
+    height: 200px;    
+  }
+  
+  
